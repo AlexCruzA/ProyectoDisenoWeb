@@ -5,7 +5,7 @@ footer{
 	color: gray;
 }
 
-#containerAmerica, #containerSouthAm, #containerEurope, #containerAsia {
+#containerAmerica, #containerSouthAm, #containerEurope, #containerAsia, #containerAfrica{
 	display: flex;
 	background-color: #E8E8E8;
 	flex-direction: column;
