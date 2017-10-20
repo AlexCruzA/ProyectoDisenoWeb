@@ -1,6 +1,14 @@
 h1{
 	color: #9B1010;
 	font-size: 3em;
-	float:left;margin-right: :5px; 
+}
 
+#logo{
+	display: flex;
+	align-items: center;
+	 justify-content:space-around;
+}
+
+h2{
+	color: #9B1010;
 }
