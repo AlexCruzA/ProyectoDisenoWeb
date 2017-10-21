@@ -1,0 +1,18 @@
+body{
+	background-size: 100% 200%
+}
+
+#item_2,#item_3,#item_4,#item_5,#item_6{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content:space-between;
+
+}
+
+#equipo{
+	display: flex;
+	align-items: flex-start;
+	justify-content:space-around;
+}
+
