@@ -30,3 +30,7 @@ p{
 	font-size: 1em;
 	font-weight:bold;
 }
+
+#info1, #info2, #info3{
+background-color: #FDFEFE;
+}
