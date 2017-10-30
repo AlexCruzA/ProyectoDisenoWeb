@@ -44,7 +44,7 @@ h2{
 	background-image: url(../img/cancha.jpg);
 	background-size: cover;
 }
-#defensa, #media, #delantera, #delantera2,#jerseys{
+#defensa, #media, #delantera, #delantera2,#jerseys,#players{
 	display: flex;
 	flex-direction: row;
 	width: 100%;
