@@ -1,6 +1,3 @@
-h1{
-	color: red;
-}
 footer{
 	color: gray;
 }
@@ -14,7 +11,6 @@ footer{
 	padding: 10px;
 	margin: 42px;
 	border-radius: 10px;
-
 }
 #inicial{
 	display: flex;
@@ -22,7 +18,7 @@ footer{
 	justify-content:space-around;
 }
 
-h2{
+h1,h2, h3{
 	color: #9B1010;
 	font-style: italic;
 }
@@ -40,7 +36,79 @@ box-shadow: 0px 0px 14px #BD3719;
 cursor: pointer;
 /*text-shadow: 0px -1px 1px black;*/
 }
+
+#menu{
+	display: flex;
+	align-items: flex-start;
+	justify-content:space-around;
+}
+
+ #m1{
+	background-color: white;
+	flex-direction: column;
+	height: 90%;
+	width: 10%;
+	padding: 10px;
+	margin: 50px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 14px #BD3719;
+	cursor: url(../matches.html);
+}
+
+#m2{
+	background-color: #FDFEFE;
+	flex-direction: column;
+	height: 90%;
+	width: 10%;
+	padding: 10px;
+	margin: 50px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 14px #BD3719;
+}
+
+#m3{
+	background-color: #FDFEFE;
+	flex-direction: column;
+	height: 80%;
+	width: 10%;
+	padding: 10px;
+	margin: 50px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 14px #BD3719;
+}
+
 a:hover, a:link{
 	color: #0080FF;
 	text-decoration: none;
+}
+
+#A,#B,#C,#D,#E,#F,#G,#H{
+	display: flex;
+	align-items: center;
+	justify-content:space-around;
+	background-color: #F7F7F7;
+	padding: 25px;
+	margin: 100px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 14px #BD3719
+}
+
+#stage1{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	justify-content: center;
+	
+	align-items: center;
+	width: 84%;
+	padding: 25px;
+	margin: 100px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 14px #BD3719
+}
+#p1, #p2{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
 }
