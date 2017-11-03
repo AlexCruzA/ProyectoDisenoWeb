@@ -19,6 +19,7 @@ p{
 	padding: 10px;
 	margin: 42px;
 	border-radius: 10px;
+	box-shadow: 0px 0px 14px #BD3719;
 }
 #inicial{
 	display: flex;
@@ -63,23 +64,23 @@ p{
 	box-shadow: 0px 0px 14px #BD3719;
 }
 #info1, #info2, #info3{
-background-color: #FDFEFE;
-margin: 42px;
-border-radius: 10px;
-box-shadow: 0px 0px 14px #BD3719;
-cursor: pointer;
+	background-color: #FDFEFE;
+	margin: 42px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 14px #BD3719;
 }
 a:hover, a:link{
 	color: #0080FF;
 	text-decoration: none;
 }
 
-#p1, #p2{
+/*#p1, #p2{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-around;
-}
+}*/
 
 /*GROUPS*/
 #A,#B,#C,#D,#E,#F,#G,#H{
